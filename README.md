@@ -5,7 +5,7 @@
 
 [badge CI] [badge licence code] [badge Python]
 
-**Statut :** 🚧 couche 1 en cours (semaine 1/4)
+**Statut :** couche 1 en cours (semaine 1/4)
 
 ## Pourquoi ce projet
 

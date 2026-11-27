@@ -1,4 +1,23 @@
-data/
-models/
+# Données et modèles (jamais dans git)
+data/*
+!data/README.md
+!data/**/.gitkeep
+models/*
+!models/.gitkeep
+
+# Secrets
 .env
-caches
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Index vectoriel et traces générés (couche 2)
+*.faiss
+chroma/
+logs/
+traces/
